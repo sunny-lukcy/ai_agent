@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 llm = ChatOpenAI(
     model="qwen3-max",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    api_key="sk-d6dba8cb664f419da9bb93dfe491bedd",
+    api_key="sk-d6db=b93dfe491bedd",
     streaming=True,
 )
 
@@ -45,3 +45,4 @@ def create_calc_tools():
 
 
 calc_tools = create_calc_tools()
+
