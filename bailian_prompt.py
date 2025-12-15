@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate, ChatMessagePromptTemplate
 llm = ChatOpenAI(
     model="qwen3-max",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    api_key="sk-d6dba8cb664f419da9bb93dfe491bedd",
+    api_key="sk-d6dba8cb664f419da=edd",
     streaming=True,
 )
 
@@ -59,3 +59,4 @@ print(resp.content)
 # resp = llm.stream(prompt)
 # for chunk in resp:
 #     print(chunk.content, end='', flush=True)
+
